@@ -8,8 +8,12 @@ array_1 = [
   [25, 29, 30, 36, 39, 45, 49, 50, 52, 57, 58, 59, 60, 66, 65, 59, 54, 49, 45, 40, 36, 30, 26, 24],
   [30, 36, 38, 39, 40, 45, 47, 49, 50, 59, 60, 60, 65, 63, 61, 56, 49, 43, 40, 39, 35, 32, 23, 22],
 ]
-
-array_1.sort
+outer_results = []
+row_index = 0
+while row_index < array_1.count do
+  element_index = 0
+  longest_string_element = ""
+  while element_index < array_1[row_index].count do
 
 end
 
