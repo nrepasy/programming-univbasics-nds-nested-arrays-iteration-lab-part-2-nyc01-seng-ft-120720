@@ -9,7 +9,16 @@ array_1 = [
   [30, 36, 38, 39, 40, 45, 47, 49, 50, 59, 60, 60, 65, 63, 61, 56, 49, 43, 40, 39, 35, 32, 23, 22],
 ]
 
-
+ 
+row_index = 0
+while row_index < spice_rack.count do
+  element_index = 0
+  while element_index < spice_rack[row_index].count do
+    p spice_rack[row_index][element_index]
+    element_index += 1
+  end
+  row_index += 1
+end #=> nil
 
 
 
