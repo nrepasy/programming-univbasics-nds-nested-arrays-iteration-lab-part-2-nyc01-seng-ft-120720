@@ -9,6 +9,6 @@ array_of_arrays = [
   [30, 36, 38, 39, 40, 45, 47, 49, 50, 59, 60, 60, 65, 63, 61, 56, 49, 43, 40, 39, 35, 32, 23, 22],
 ].min
 print array_of_arrays
-print 
+print "\n"
 end
   
