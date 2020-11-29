@@ -8,15 +8,14 @@ a = [
   [25, 29, 30, 36, 39, 45, 49, 50, 52, 57, 58, 59, 60, 66, 65, 59, 54, 49, 45, 40, 36, 30, 26, 24],
   [30, 36, 38, 39, 40, 45, 47, 49, 50, 59, 60, 60, 65, 63, 61, 56, 49, 43, 40, 39, 35, 32, 23, 22],
 ]
-row_index = 0
-  while row_index < src.count do
-    element_index = 0
-    while element_index < src[row_index].count do
-      if src[row_index][element_index].min?
-        p src[row_index][element_index]
-      end
-      element_index += 1
-    end
-    row_index += 1
+  row_index = 0
+while row_index <array_of_arraysk.count do
+  element_index = 0
+  while element_index < array_of_arrays[row_index].count do
+    p array_of_arrays[row_index][element_index]
+    element_index += 1
   end
+  row_index += 1
 end
+  
+  
