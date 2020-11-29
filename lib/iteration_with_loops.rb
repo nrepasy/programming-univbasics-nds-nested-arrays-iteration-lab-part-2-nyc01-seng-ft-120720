@@ -11,10 +11,10 @@ array_1 = [
 
  
 row_index = 0
-while row_index < spice_rack.count do
+while row_index < array_1.count do
   element_index = 0
-  while element_index < spice_rack[row_index].count do
-    p spice_rack[row_index][element_index]
+  while element_index < array_1[row_index].count do
+    p array_1[row_index][element_index]
     element_index += 1
   end
   row_index += 1
