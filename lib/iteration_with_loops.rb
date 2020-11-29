@@ -9,7 +9,7 @@ a = [
   [30, 36, 38, 39, 40, 45, 47, 49, 50, 59, 60, 60, 65, 63, 61, 56, 49, 43, 40, 39, 35, 32, 23, 22],
 ]
   row_index = 0
-while row_index <array_of_arraysk.count do
+while row_index <array_of_arrays.count do
   element_index = 0
   while element_index < array_of_arrays[row_index].count do
     p array_of_arrays[row_index][element_index]
