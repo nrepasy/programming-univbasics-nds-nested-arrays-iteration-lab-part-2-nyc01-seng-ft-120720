@@ -11,5 +11,5 @@ array_1 = [
 
 array_1.sort[0]
 
-
+end
 
