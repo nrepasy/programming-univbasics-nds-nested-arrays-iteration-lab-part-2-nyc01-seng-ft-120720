@@ -15,5 +15,10 @@ while row_index < array_1.count do
   longest_string_element = ""
   while element_index < array_1[row_index].count do
 
+ if array_1[row_index][element_index].min > longest_string_element.min
+      longest_string_element = array_1[row_index][element_index]
+    end
+    element_index += 1
+  end
 end
 
