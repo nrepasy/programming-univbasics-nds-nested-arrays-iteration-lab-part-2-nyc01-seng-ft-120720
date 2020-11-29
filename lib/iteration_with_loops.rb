@@ -13,7 +13,7 @@ while row_index < array_2.count do
   while element_index < array_2[row_index].count do
  
    
-    if array_2[row_index][element_index].length > longest_string_element.length
+    if array_2[row_index][element_index] > longest_string_element.length
       longest_string_element = array_2[row_index][element_index]
     end
     element_index += 1
