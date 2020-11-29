@@ -8,20 +8,7 @@ array_1 = [
   [25, 29, 30, 36, 39, 45, 49, 50, 52, 57, 58, 59, 60, 66, 65, 59, 54, 49, 45, 40, 36, 30, 26, 24],
   [30, 36, 38, 39, 40, 45, 47, 49, 50, 59, 60, 60, 65, 63, 61, 56, 49, 43, 40, 39, 35, 32, 23, 22],
 ]
-outer_results = []
-row_index = 0
-while row_index < array_1.count do
-  element_index = 0
-  find_min_in_nested_arrays = ""
-  while element_index < array_1[row_index].count do
 
- if array_1[row_index][element_index].min >find_min_in_nested_arrays.min
-     find_min_in_nested_arrays = array_1[row_index][element_index]
-    end
-    element_index += 1
-  end
-outer_results << find_min_in_nested_arrays
-  row_index += 1
-end
-outer_results
+find_min_in_nested_arrays = array_1.min
+
 end
