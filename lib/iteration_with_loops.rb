@@ -13,7 +13,7 @@ array_1 = [
 row_index = 0
 while row_index < array_1.count do
   element_index = 0
-  while element_index < array_1[row_index].min do
+  while element_index < array_1[row_index].count do
     puts array_1[row_index][element_index]
     element_index += 1
   end
