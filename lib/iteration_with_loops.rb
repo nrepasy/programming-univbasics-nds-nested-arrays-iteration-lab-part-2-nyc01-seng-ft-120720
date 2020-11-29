@@ -20,5 +20,8 @@ while row_index < array_1.count do
     end
     element_index += 1
   end
+outer_results << longest_string_element
+  row_index += 1
 end
+outer_results
 
