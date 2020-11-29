@@ -9,12 +9,12 @@ outer_results = []
 row_index = 0
 while row_index < array_2.count do
   element_index = 0
-  find_min_in_nested_arrayst = ""
+  find_min_in_nested_arrays = ""
   while element_index < array_2[row_index].count do
  
    
-    if array_2[row_index][element_index] > longest_string_element.length
-      longest_string_element = array_2[row_index][element_index]
+    if array_2[row_index][element_index] > find_min_in_nested_arrays
+      find_min_in_nested_arrays = array_2[row_index][element_index]
     end
     element_index += 1
   end
